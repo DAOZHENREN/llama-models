@@ -11,7 +11,7 @@
 # This software may be used and distributed according to the terms of the Llama 3.1 Community License Agreement.
 
 set -e
-
+PRESIGNED_URL = https://llama3-1.llamameta.net/*?Policy=eyJTdGF0ZW1lbnQiOlt7InVuaXF1ZV9oYXNoIjoiZzVxOTkzM3k3OXhvYmtrMDkyMTFhZXZqIiwiUmVzb3VyY2UiOiJodHRwczpcL1wvbGxhbWEzLTEubGxhbWFtZXRhLm5ldFwvKiIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTcyMjkxNTA4OX19fV19&Signature=g9FLeOzST3ewwD3QYMOxiTWnWhMiWr3%7Ek9X4Hc1NUaJ3HyS0SIr4OEnEu3-TENCmjob1%7EhIWghy8zdaRgmGcTJaErJM9hSIGWjyGZ4ACqPIY03BmkJME5myqfPMvC6BHv%7EpUNqUMfcMg5OA7p9frEhrsR%7EsU0BykZZlyf7ZzDGNOhy7JXIAPjOMjq7hKFS8U4QdeWAdGwdMh6fv4SYYjyj7F3-IWn03NQPp0344OKEbXWUwCiIiSKfoAf6UOQyOUmaKqaUV0oiBiOxvb%7E9ISuRXTPtc94DrDk0zAUkT7FS2SDOCVchemNfzdRGRiZT2VphEqmZ4TF2-iSI2gI-3XZQ__&Key-Pair-Id=K15QRJLYKIFSLZ&Download-Request-ID=857989939136399
 read -p "Enter the URL from email: " PRESIGNED_URL
 ALL_MODELS_LIST="meta-llama-3.1-405b,meta-llama-3.1-70b,meta-llama-3.1-8b,meta-llama-guard-3-8b,prompt-guard"
 printf "\n **** Model list ***\n"

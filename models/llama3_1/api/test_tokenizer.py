@@ -16,7 +16,7 @@ from .datatypes import SystemMessage, UserMessage
 from .tokenizer import Tokenizer
 
 
-# TOKENIZER_PATH=<tokenizer_path> python -m unittest models/llama3_1/api/test_tokenizer.py
+#TOKENIZER_PATH=<Meta-Llama-3.1-8B/tokenizer.model> python3 -m unittest models/llama3_1/api/test_tokenizer.py
 
 
 class TokenizerTests(TestCase):
